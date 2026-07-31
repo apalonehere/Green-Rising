@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Rising Barbados — Youth Climate Engine</title>
+    <meta name="description"
+        content="Green Rising Barbados - Future Barbados Youth Climate Engine. Empowering youth through water conservation, CYEN skills, Eco Village, YOTS boat building, and Pinelands Creative Workshop.">
+    <title>Green Rising Barbados | Future Barbados Youth Climate Engine</title>
+    <!-- Google Fonts: Outfit (Headings) and Inter (Body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,400&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <!-- Top Navigation Bar -->
+
+    <!-- Header Navigation -->
     <header class="main-header">
         <div class="header-container">
-            <a href="#home" class="logo-lockup" aria-label="Green Rising Barbados Home">
-                <img src="logo.png" alt="Green Rising Logo" class="header-logo-img">
+            <!-- Logo -->
+            <a href="#home" class="logo-lockup" id="nav-logo" onclick="switchView('home')">
+                <img src="./logo.png" alt="Green Rising Barbados" class="header-logo-img" onerror="this.style.display='none';">
                 <div class="brand-text-block">
                     <span class="brand-name">GREEN RISING</span>
                     <span class="brand-subtitle-header">Youth Climate Engine</span>
@@ -61,7 +66,7 @@
             <section class="hero-section">
                 <!-- Hero Background Image -->
                 <div class="hero-img-bg-container">
-                    <img src="images/hero-bg.jpg" alt="Green Rising Hero" class="hero-img-bg" onerror="this.style.display='none';">
+                    <img src="./images/hero-bg.jpg" alt="Green Rising Hero" class="hero-img-bg" onerror="this.style.display='none';">
                 </div>
                 <div class="hero-video-overlay"></div>
 
@@ -1009,18 +1014,18 @@
     </footer>
 
     <!-- Modular JavaScript Services & Logic -->
-    <script src="js/theme.js"></script>
-    <script src="js/router.js"></script>
-    <script src="js/calculator.js"></script>
-    <script src="js/wizard.js"></script>
-    <script src="js/dashboard.js"></script>
-    <script src="js/quiz.js"></script>
-    <script src="js/apply.js"></script>
-    <script src="js/team.js"></script>
-    <script src="js/resources.js"></script>
-    <script src="js/schedules.js"></script>
-    <script src="js/admin-tabs.js"></script>
-    <script src="app.js"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./js/router.js"></script>
+    <script src="./js/calculator.js"></script>
+    <script src="./js/wizard.js"></script>
+    <script src="./js/dashboard.js"></script>
+    <script src="./js/quiz.js"></script>
+    <script src="./js/apply.js"></script>
+    <script src="./js/team.js"></script>
+    <script src="./js/resources.js"></script>
+    <script src="./js/schedules.js"></script>
+    <script src="./js/admin-tabs.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
